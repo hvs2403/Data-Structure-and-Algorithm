@@ -16,7 +16,7 @@ int main()
 
     int start=0,end=(n-1);
     
-    while(start<end)
+    while(start<end)            // To reverse the array
     {
         temp = arr[start];
         arr[start] = arr[end];
